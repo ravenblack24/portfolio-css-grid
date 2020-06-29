@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test Portfolio</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/solid.min.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/brands.min.css">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">home </i></a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#portfolio">portfolio</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container-all">
+    <div class="welcome" id="home">
+      <button class="menu-button">
+        <i class="fas fa-bars hamburger"></i>
+        <i class="fas fa-times close-icon"></i>
+      </button>
+      <h1>Welcome to my<span>Portfolio</span></h1>
+    </div>
+
+    <section class="intro">
+      <div class="intro-left">
+        <img src="img/welcome-01.png" alt="a laptop on a wood table">
+      </div>
+      <div class="intro-middle">
+        <h2>Making it happen</h2>
+        <p>Maybe we better talk out here; the observation lounge has turned into a swamp. They were just sucked into space.</p>
+      </div>
+      <div class="intro-right">
+        <img src="img/welcome-02.png" alt="two computers and a laptop on a table">
+      </div>
+    </section>
+
+    <section class="about-me" id="about">
+      <img class="about-img" src="img/joe-portfolio.png" alt="a picture of joe portfolio" />
+      <h1 class="about-title">Joe Portfolio</h1>
+      <h2 class="about-subtitle">Designer & Developer</h2>
+      <div class="about-text">
+        <p>A surprise party? Mr. Worf, I hate surprise parties. I would *never* do that to you. We know you're dealing in stolen ore. </p>
+        <p>But I wanna talk about the assassination attempt on Lieutenant Worf. I guess it's better to be lucky than good.</p>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h1>My Work</h1>
+      <div class="portfolio-items">
+
+        <!-- portfolio item 1 -->
+        <figure class="portfolio-item featured">
+          <img src="img/portfolio-01.jpg" alt="portfolio item">
+          <figcaption>
+            <h2 class="portfolio-title">Project Name</h2>
+            <p class="portfolio-description">A short description could go right here</p>
+            <a href="#" class="portfolio-link">More info</a>
+          </figcaption>
+
+          <!-- portfolio modal 1 -->
+          <div class="portfolio-modal">
+
+          </div>
+          <!-- / modal 1 -->
+        </figure>
+
+        <!-- portfolio item 2 -->
+        <figure class="portfolio-item ">
+          <img src="img/portfolio-02.jpg" alt="portfolio item">
+          <figcaption>
+            <h2 class="portfolio-title">Project Name</h2>
+            <p class="portfolio-description">A short description could go right here</p>
+            <a href="#" class="portfolio-link">More info</a>
+          </figcaption>
+        </figure>
+
+        <!-- portfolio item 3 -->
+        <figure class="portfolio-item ">
+          <img src="img/portfolio-03.jpg" alt="portfolio item">
+          <figcaption>
+            <h2 class="portfolio-title">Project Name</h2>
+            <p class="portfolio-description">A short description could go right here</p>
+            <a href="#" class="portfolio-link">More info</a>
+          </figcaption>
+        </figure>
+
+        <!-- portfolio item 4 -->
+        <figure class="portfolio-item ">
+          <img src="img/portfolio-04.jpg" alt="portfolio item">
+          <figcaption>
+            <h2 class="portfolio-title">Project Name</h2>
+            <p class="portfolio-description">A short description could go right here</p>
+            <a href="#" class="portfolio-link">More info</a>
+          </figcaption>
+        </figure>
+
+        <!-- portfolio item 5 -->
+        <figure class="portfolio-item ">
+          <img src="img/portfolio-05.jpg" alt="portfolio item">
+          <figcaption>
+            <h2 class="portfolio-title">Project Name</h2>
+            <p class="portfolio-description">A short description could go right here</p>
+            <a href="#" class="portfolio-link">More info</a>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1>Contact me</h1>
+      <form action="">
+        <label class="name" for="name">Name:
+          <input type="text" id="name" />
+        </label>
+        <label for="email" class="email">Email:
+          <input type="email" id="email" />
+        </label>
+        <label for="message" class="message">Message:
+          <textarea name="message" id="message"></textarea>
+        </label>
+        <input class="button form-button" type="submit" value="SEND" >
+      </form>
+    </section>
+
+    <footer>
+      <p>Follow me on social media</p>
+      <div class="social-icons">
+        <i class="fab fa-twitter-square social-icon"></i>
+        <i class="fab fa-instagram-square social-icon"></i>
+        <i class="fab fa-github-square social-icon"></i>
+      </div>
+      <div class="copyright">Copyright 2020 Joe Portfolio</div>
+    </footer>
+</div>
+
+  <script src="js/nav.js"></script>
+
+</body>
+</html>
